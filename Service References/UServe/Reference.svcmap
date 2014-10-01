@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7355c4dd-5112-4d8c-bc67-ce6738c3f6de" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://www.influentinc.com/userve/Service1.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="cf2ce16d-de6c-443e-ae2c-0c03ba38cfc2" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?xsd=xsd3" />
+    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="4ba7b5ff-876b-4850-90ec-8ea0d6b8c2e5" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="9dc7c6ef-7e96-4184-a85e-60f0d2b09dc1" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service13.xsd" MetadataType="Schema" ID="af2e2863-931a-4f27-abe4-8d4acbf2648e" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?xsd=xsd2" />
+    <MetadataFile FileName="uRock.wsdl" MetadataType="Wsdl" ID="f309635f-7eb4-4f4c-b031-21b7a5cd0da3" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?wsdl" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="4e4c2968-3495-406c-9e89-03acbff46d16" SourceId="1" SourceUrl="http://www.influentinc.com/userve/Service1.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

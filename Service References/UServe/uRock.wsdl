@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="uRock" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://www.influentinc.com/userve/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://www.influentinc.com/userve/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://www.influentinc.com/userve/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MyService" />
+      <xsd:import schemaLocation="http://www.influentinc.com/userve/Service1.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="uService_UAC_EnterLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_EnterLogin" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_EnterLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_EnterLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ChangePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ChangePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ForgotPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ForgotPassword" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ForgotPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ForgotPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_RetrieveOnlineUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_RetrieveOnlineUsers" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_RetrieveOnlineUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_RetrieveOnlineUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_EmailInUse_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_EmailInUse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_EmailInUse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_EmailInUseResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ImOnline_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ImOnline" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_ImOnline_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_ImOnlineResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_PlayerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_PlayerList" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_PlayerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_PlayerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_CreateAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_CreateAccount" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_CreateAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_CreateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_UploadSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_UploadSS" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_UploadSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_UploadSSResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_LoadSSList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_LoadSSList" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_LoadSSList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_LoadSSListResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_GetSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_GetSS" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_GetSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_GetSSResponse" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_DeleteSS_InputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_DeleteSS" />
+  </wsdl:message>
+  <wsdl:message name="uService_UAC_DeleteSS_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UAC_DeleteSSResponse" />
+  </wsdl:message>
+  <wsdl:portType name="uService">
+    <wsdl:operation name="UAC_EnterLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_EnterLogin" message="tns:uService_UAC_EnterLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_EnterLoginResponse" message="tns:uService_UAC_EnterLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ChangePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_ChangePassword" message="tns:uService_UAC_ChangePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_ChangePasswordResponse" message="tns:uService_UAC_ChangePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ForgotPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_ForgotPassword" message="tns:uService_UAC_ForgotPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_ForgotPasswordResponse" message="tns:uService_UAC_ForgotPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_RetrieveOnlineUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_RetrieveOnlineUsers" message="tns:uService_UAC_RetrieveOnlineUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_RetrieveOnlineUsersResponse" message="tns:uService_UAC_RetrieveOnlineUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_EmailInUse">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_EmailInUse" message="tns:uService_UAC_EmailInUse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_EmailInUseResponse" message="tns:uService_UAC_EmailInUse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ImOnline">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_ImOnline" message="tns:uService_UAC_ImOnline_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_ImOnlineResponse" message="tns:uService_UAC_ImOnline_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_PlayerList">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_PlayerList" message="tns:uService_UAC_PlayerList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_PlayerListResponse" message="tns:uService_UAC_PlayerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_CreateAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_CreateAccount" message="tns:uService_UAC_CreateAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_CreateAccountResponse" message="tns:uService_UAC_CreateAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_UploadSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_UploadSS" message="tns:uService_UAC_UploadSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_UploadSSResponse" message="tns:uService_UAC_UploadSS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_LoadSSList">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_LoadSSList" message="tns:uService_UAC_LoadSSList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_LoadSSListResponse" message="tns:uService_UAC_LoadSSList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_GetSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_GetSS" message="tns:uService_UAC_GetSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_GetSSResponse" message="tns:uService_UAC_GetSS_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UAC_DeleteSS">
+      <wsdl:input wsaw:Action="http://tempuri.org/uService/UAC_DeleteSS" message="tns:uService_UAC_DeleteSS_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/uService/UAC_DeleteSSResponse" message="tns:uService_UAC_DeleteSS_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_uService" type="tns:uService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UAC_EnterLogin">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_EnterLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ChangePassword">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ForgotPassword">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_ForgotPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_RetrieveOnlineUsers">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_RetrieveOnlineUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_EmailInUse">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_EmailInUse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_ImOnline">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_ImOnline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_PlayerList">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_PlayerList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_CreateAccount">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_CreateAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_UploadSS">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_UploadSS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_LoadSSList">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_LoadSSList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_GetSS">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_GetSS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UAC_DeleteSS">
+      <soap:operation soapAction="http://tempuri.org/uService/UAC_DeleteSS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="uRock">
+    <wsdl:port name="BasicHttpBinding_uService" binding="tns:BasicHttpBinding_uService">
+      <soap:address location="http://www.influentinc.com/userve/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

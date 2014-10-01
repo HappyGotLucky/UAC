@@ -1,0 +1,24 @@
+Process list for user: HappyGotLucky
+raptr_im
+N360
+WireHelperSvc
+svchost
+svchost
+explorer
+svchost
+winlogon
+Taskmgr
+svchost
+smss
+MSBuild
+csrss
+svchost
+dasHost
+audiodg
+ts3client_win64
+jusched
+wininit
+SearchFilterHost
+chrome
+chrome
+db

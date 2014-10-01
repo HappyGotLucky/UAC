@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://www.influentinc.com/userve/Service1.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="UAC_UserInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Is_Admin" type="xs:int" />
+      <xs:element minOccurs="0" name="Needs_Reset" type="xs:int" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SQLResult" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User_Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UAC_UserInfo" nillable="true" type="tns:UAC_UserInfo" />
+  <xs:complexType name="UAC_OnlineList">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="UList" nillable="true" type="q1:ArrayOfstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UAC_OnlineList" nillable="true" type="tns:UAC_OnlineList" />
+  <xs:complexType name="UAC_Bytes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ImageData" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SystemData" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Time" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User_Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UAC_Bytes" nillable="true" type="tns:UAC_Bytes" />
+  <xs:complexType name="UAC_SSList">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SSDate" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SSId" nillable="true" type="q3:ArrayOfint" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UAC_SSList" nillable="true" type="tns:UAC_SSList" />
+</xs:schema>
