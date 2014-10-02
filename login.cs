@@ -175,5 +175,10 @@ namespace UAC
             ca.Visible = true;
 
         }
+
+        private void lblError_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

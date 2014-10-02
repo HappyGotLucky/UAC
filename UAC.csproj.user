@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>ftp://ftp.urockgamers.org/|publish\</PublishUrlHistory>
+    <PublishUrlHistory>publish\|ftp://ftp.urockgamers.org/</PublishUrlHistory>
     <InstallUrlHistory>http://www.urockgamers.org/uac/</InstallUrlHistory>
     <SupportUrlHistory>http://www.urockgamers.org</SupportUrlHistory>
     <UpdateUrlHistory />

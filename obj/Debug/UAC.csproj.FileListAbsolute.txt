@@ -43,3 +43,24 @@ C:\Users\Nickolas\Documents\Visual Studio 2013\Projects\UAC\UAC\obj\Debug\UAC.ex
 C:\Users\Nickolas\Documents\Visual Studio 2013\Projects\UAC\UAC\obj\Debug\UAC.application
 C:\Users\Nickolas\Documents\Visual Studio 2013\Projects\UAC\UAC\obj\Debug\UAC.reset.resources
 C:\Users\Nickolas\Documents\Visual Studio 2013\Projects\UAC\UAC\obj\Debug\UAC.csprojResolveAssemblyReference.cache
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.csprojResolveAssemblyReference.cache
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.about.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.create_account.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.create_clan.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.forgot.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.login.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.main.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.Properties.Resources.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.reset.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.search.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.view.resources
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.csproj.GenerateResource.Cache
+D:\Austin\Desktop\UAC-master\bin\Debug\UAC.exe.config
+D:\Austin\Desktop\UAC-master\bin\Debug\UAC.exe.manifest
+D:\Austin\Desktop\UAC-master\bin\Debug\UAC.application
+D:\Austin\Desktop\UAC-master\bin\Debug\UAC.exe
+D:\Austin\Desktop\UAC-master\bin\Debug\UAC.pdb
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.exe.manifest
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.application
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.exe
+D:\Austin\Desktop\UAC-master\obj\Debug\UAC.pdb
