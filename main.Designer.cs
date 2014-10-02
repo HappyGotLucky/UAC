@@ -65,7 +65,7 @@
             this.btnAction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
             this.btnAction.Location = new System.Drawing.Point(12, 132);
             this.btnAction.Name = "btnAction";
-            this.btnAction.Size = new System.Drawing.Size(190, 35);
+            this.btnAction.Size = new System.Drawing.Size(198, 35);
             this.btnAction.TabIndex = 0;
             this.btnAction.Text = "EXIT";
             this.btnAction.UseVisualStyleBackColor = false;
@@ -91,7 +91,7 @@
             this.btnView.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
             this.btnView.Location = new System.Drawing.Point(12, 15);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(190, 40);
+            this.btnView.Size = new System.Drawing.Size(198, 40);
             this.btnView.TabIndex = 2;
             this.btnView.Text = "VIEW SCREENS";
             this.btnView.UseVisualStyleBackColor = false;
@@ -169,7 +169,7 @@
             this.btnUpload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
             this.btnUpload.Location = new System.Drawing.Point(12, 75);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(190, 38);
+            this.btnUpload.Size = new System.Drawing.Size(198, 38);
             this.btnUpload.TabIndex = 7;
             this.btnUpload.Text = "UPLOAD NOW";
             this.btnUpload.UseVisualStyleBackColor = false;
@@ -204,7 +204,7 @@
             this.panel2.Controls.Add(this.lblCap);
             this.panel2.Location = new System.Drawing.Point(17, 17);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(217, 80);
+            this.panel2.Size = new System.Drawing.Size(226, 80);
             this.panel2.TabIndex = 9;
             // 
             // panel3
@@ -215,7 +215,7 @@
             this.panel3.Controls.Add(this.btnAction);
             this.panel3.Location = new System.Drawing.Point(19, 116);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(215, 183);
+            this.panel3.Size = new System.Drawing.Size(224, 183);
             this.panel3.TabIndex = 10;
             // 
             // panel4
@@ -224,7 +224,7 @@
             this.panel4.Controls.Add(this.lblProcessing);
             this.panel4.Location = new System.Drawing.Point(19, 321);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(215, 66);
+            this.panel4.Size = new System.Drawing.Size(224, 66);
             this.panel4.TabIndex = 11;
             // 
             // panel5
