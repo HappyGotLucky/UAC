@@ -46,36 +46,55 @@
             this.lblProcessing = new System.Windows.Forms.Label();
             this.backgroundWorker4 = new System.ComponentModel.BackgroundWorker();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAction
             // 
-            this.btnAction.Location = new System.Drawing.Point(12, 123);
+            this.btnAction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnAction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
+            this.btnAction.Location = new System.Drawing.Point(12, 132);
             this.btnAction.Name = "btnAction";
-            this.btnAction.Size = new System.Drawing.Size(94, 23);
+            this.btnAction.Size = new System.Drawing.Size(190, 35);
             this.btnAction.TabIndex = 0;
-            this.btnAction.Text = "Exit";
-            this.btnAction.UseVisualStyleBackColor = true;
+            this.btnAction.Text = "EXIT";
+            this.btnAction.UseVisualStyleBackColor = false;
             this.btnAction.Click += new System.EventHandler(this.btnAction_Click);
             // 
             // lblCap
             // 
             this.lblCap.AutoSize = true;
-            this.lblCap.Location = new System.Drawing.Point(12, 40);
+            this.lblCap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.lblCap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCap.ForeColor = System.Drawing.Color.White;
+            this.lblCap.Location = new System.Drawing.Point(14, 43);
             this.lblCap.Name = "lblCap";
-            this.lblCap.Size = new System.Drawing.Size(100, 13);
+            this.lblCap.Size = new System.Drawing.Size(142, 16);
             this.lblCap.TabIndex = 1;
             this.lblCap.Text = "Screens Pending: 0";
             // 
             // btnView
             // 
-            this.btnView.Location = new System.Drawing.Point(12, 65);
+            this.btnView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnView.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
+            this.btnView.Location = new System.Drawing.Point(12, 15);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(94, 23);
+            this.btnView.Size = new System.Drawing.Size(190, 40);
             this.btnView.TabIndex = 2;
-            this.btnView.Text = "View Screens";
-            this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Text = "VIEW SCREENS";
+            this.btnView.UseVisualStyleBackColor = false;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // timer1
@@ -86,10 +105,12 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(12, 13);
+            this.lblStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.ForeColor = System.Drawing.Color.White;
+            this.lblStatus.Location = new System.Drawing.Point(14, 16);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(159, 13);
+            this.lblStatus.Size = new System.Drawing.Size(188, 16);
             this.lblStatus.TabIndex = 3;
             this.lblStatus.Text = "Waiting for game to start...";
             // 
@@ -112,11 +133,12 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
             this.panel1.Controls.Add(this.lbOnline);
             this.panel1.Controls.Add(this.lblOnline);
-            this.panel1.Location = new System.Drawing.Point(209, 1);
+            this.panel1.Location = new System.Drawing.Point(16, 16);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(169, 170);
+            this.panel1.Size = new System.Drawing.Size(173, 351);
             this.panel1.TabIndex = 6;
             // 
             // lbOnline
@@ -126,13 +148,14 @@
             this.lbOnline.FormattingEnabled = true;
             this.lbOnline.Location = new System.Drawing.Point(3, 21);
             this.lbOnline.Name = "lbOnline";
-            this.lbOnline.Size = new System.Drawing.Size(160, 147);
+            this.lbOnline.Size = new System.Drawing.Size(170, 316);
             this.lbOnline.TabIndex = 7;
             // 
             // lblOnline
             // 
             this.lblOnline.AutoSize = true;
-            this.lblOnline.Location = new System.Drawing.Point(3, 5);
+            this.lblOnline.ForeColor = System.Drawing.Color.White;
+            this.lblOnline.Location = new System.Drawing.Point(16, 5);
             this.lblOnline.Name = "lblOnline";
             this.lblOnline.Size = new System.Drawing.Size(129, 13);
             this.lblOnline.TabIndex = 6;
@@ -140,12 +163,16 @@
             // 
             // btnUpload
             // 
-            this.btnUpload.Location = new System.Drawing.Point(12, 94);
+            this.btnUpload.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
+            this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpload.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(221)))), ((int)(((byte)(229)))));
+            this.btnUpload.Location = new System.Drawing.Point(12, 75);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(94, 23);
+            this.btnUpload.Size = new System.Drawing.Size(190, 38);
             this.btnUpload.TabIndex = 7;
-            this.btnUpload.Text = "Upload Now";
-            this.btnUpload.UseVisualStyleBackColor = true;
+            this.btnUpload.Text = "UPLOAD NOW";
+            this.btnUpload.UseVisualStyleBackColor = false;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
             // 
             // backgroundWorker3
@@ -156,10 +183,12 @@
             // lblProcessing
             // 
             this.lblProcessing.AutoSize = true;
-            this.lblProcessing.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProcessing.Location = new System.Drawing.Point(9, 149);
+            this.lblProcessing.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.lblProcessing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProcessing.ForeColor = System.Drawing.Color.White;
+            this.lblProcessing.Location = new System.Drawing.Point(22, 24);
             this.lblProcessing.Name = "lblProcessing";
-            this.lblProcessing.Size = new System.Drawing.Size(138, 13);
+            this.lblProcessing.Size = new System.Drawing.Size(166, 16);
             this.lblProcessing.TabIndex = 8;
             this.lblProcessing.Text = "Upload Status: Waiting";
             // 
@@ -168,18 +197,56 @@
             this.timer3.Interval = 30000;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.panel2.Controls.Add(this.lblStatus);
+            this.panel2.Controls.Add(this.lblCap);
+            this.panel2.Location = new System.Drawing.Point(17, 17);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(217, 80);
+            this.panel2.TabIndex = 9;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.panel3.Controls.Add(this.btnUpload);
+            this.panel3.Controls.Add(this.btnView);
+            this.panel3.Controls.Add(this.btnAction);
+            this.panel3.Location = new System.Drawing.Point(19, 116);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(215, 183);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.panel4.Controls.Add(this.lblProcessing);
+            this.panel4.Location = new System.Drawing.Point(19, 321);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(215, 66);
+            this.panel4.TabIndex = 11;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
+            this.panel5.Controls.Add(this.panel1);
+            this.panel5.Location = new System.Drawing.Point(249, 18);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(204, 370);
+            this.panel5.TabIndex = 12;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 172);
-            this.Controls.Add(this.lblProcessing);
-            this.Controls.Add(this.btnUpload);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblStatus);
-            this.Controls.Add(this.btnView);
-            this.Controls.Add(this.lblCap);
-            this.Controls.Add(this.btnAction);
+            this.BackgroundImage = global::UAC.Properties.Resources.bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(471, 405);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "main";
@@ -188,8 +255,13 @@
             this.Load += new System.EventHandler(this.main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -211,5 +283,9 @@
         private System.Windows.Forms.Label lblProcessing;
         private System.ComponentModel.BackgroundWorker backgroundWorker4;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }

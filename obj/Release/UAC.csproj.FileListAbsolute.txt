@@ -1,0 +1,12 @@
+D:\Austin\Desktop\UAC-master\bin\Release\UAC.exe.config
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.about.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.create_account.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.create_clan.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.forgot.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.login.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.main.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.Properties.Resources.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.reset.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.search.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.view.resources
+D:\Austin\Desktop\UAC-master\obj\Release\UAC.csproj.GenerateResource.Cache

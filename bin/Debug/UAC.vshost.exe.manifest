@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UAC.exe" size="758784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UAC.exe" size="1101824">
       <assemblyIdentity name="UAC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5i80cZhQsuyaw+A1oPZNvfCGUsvGFrE9iZkUHa2Zy2I=</dsig:DigestValue>
+        <dsig:DigestValue>9vl1lCpsXTdj7Pw1eXeMNcegx2mPUK/K71IB2Sny82g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>tOrV+VQSI0kS3X8duVQNH84JxENVgvedcMGWws0lQ/k=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="1.txt" size="946">
+  <file name="1.txt" size="855">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>a5cNvVpGh4hvlBLzPokXo1kO+h0Um4VYWrfgAZWljJk=</dsig:DigestValue>
+      <dsig:DigestValue>XtJ4svQ2Ac54u13ntH+YOBdkEMIjwVAZAF0k1SfIiNg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="2.jpg" size="65943">
@@ -81,22 +81,40 @@
       <dsig:DigestValue>tOrV+VQSI0kS3X8duVQNH84JxENVgvedcMGWws0lQ/k=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="2.txt" size="254">
+  <file name="2.txt" size="231">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>0zy7GDsEwSwZr8bnZUjBd/fxte2JiSZ5yIx5FQVZwww=</dsig:DigestValue>
+      <dsig:DigestValue>Tml+rp/A1G3yb/I+TBJN/Vvty4Dnxjp188SnyYUVZAg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UAC.exe.config" size="1657">
+  <file name="bg.jpg" size="132796">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2fWmQ4zDp4Ls8iADDMy+2TrIzpx/EOvu4noBQeYfeTk=</dsig:DigestValue>
+      <dsig:DigestValue>ldbnTIuzS3DRFjclKsxTsCnNWk3B/4TvtGZq/j3xLmA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logo.png" size="540039">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TYtHnSv7+aUkgb/6NZmGlw3pdN44Hq519KXch0AMDjE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="UAC.exe.config" size="1622">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LJkJM/s1lxXNh6tO72BKm2v8HuSeUD5q/VQmYnVgEm8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="uac.ico" size="99678">
